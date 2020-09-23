@@ -34,11 +34,11 @@ jobs:
     - name: Copy war file
       run: cp /home/runner/work/DevOps-Demo/DevOps-Demo/target/addressbook.war .
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag vishwasnm2/devopsdemo:0.1
+      run: docker build . --file Dockerfile --tag 8884691005/devopsdemo:0.1
     - name: Docker credentials
-      run: docker login --username vishwasnm2 --password ${{secrets.DOCKERHUB_AUTH}} 
+      run: docker login --username 8884691005 --password ${{secrets.DOCKERHUB_AUTH}} 
     - name: Pushing the image on DockerHub
-      run: docker push vishwasnm2/devopsdemo:0.1
+      run: docker push 8884691005/devopsdemo:0.1
         
   sonar:
     name: Test - SonarCloud Scan
