@@ -1,5 +1,5 @@
 Addressbook Tutorial
- test test
+
 ====================
 
 ![Java CI](https://github.com/DevTools-India/DevOps-Demo/workflows/Java%20CI/badge.svg)
