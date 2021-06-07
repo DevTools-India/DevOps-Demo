@@ -5,7 +5,7 @@
     <groupId>com.devopdemo.tutorial</groupId>
     <artifactId>addrsbook</artifactId>
     <packaging>war</packaging>
-    <version>2.3.16</version>
+    <version>4.0.1</version>
     <name>Vaadin Addressbook example</name>
 
     <properties>
