@@ -15,7 +15,7 @@ jobs:
         with:
           jira_url: 'https://devtoolsindia.atlassian.net/'
           jira_user: 'tejaswinid@devtools.in'
-          jira_token: 'L4EWhljc4pajQit3j6Wo910A'
+          jira_token: '6SMETXbw1hFFwKlEYBND9ED5'
           jira_project: 'DE'
-          github_token: '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'
+          github_token: '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'
           sync_direction: 'gh2jira'
